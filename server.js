@@ -15,8 +15,8 @@ const app = express();
 
 // configure the keys for accessing AWS
 AWS.config.update({
-  accessKeyId:"AKIAZ2F4OCJ6NHCPEXX5",
-  secretAccessKey: "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",
+  accessKeyId:<access-key>,
+  secretAccessKey: <secret-key>,
 });
 
 // create S3 instance
